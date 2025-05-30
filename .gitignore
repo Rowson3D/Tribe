@@ -1,0 +1,117 @@
+# Godot 4+ specific files
+.godot/
+.import/
+*.tscn
+*.import
+
+# Godot 3 specific files (if migrating from older version)
+.import/
+*.tmp
+
+# Build and export files
+builds/
+exports/
+export_presets.cfg
+*.pck
+*.zip
+*.exe
+*.dmg
+*.app
+*.apk
+*.aab
+*.ipa
+
+# Large asset files - adjust extensions based on your project
+*.wav
+*.ogg
+*.mp3
+*.m4a
+*.flac
+*.aiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.ogv
+*.blend
+*.blend1
+*.fbx
+*.obj
+*.dae
+*.3ds
+*.max
+*.ma
+*.mb
+
+# Large texture files
+*.exr
+*.hdr
+*.tga
+*.bmp
+*.tiff
+*.psd
+*.xcf
+
+# Compressed archives
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Version control
+.svn/
+.hg/
+.bzr/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Platform specific build files
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# Documentation builds
+docs/_build/
+
+# Local configuration files
+override.cfg
+.env
+.env.local
+
+# Exclude image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.tiff
+*.svg
+*.uid

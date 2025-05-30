@@ -1,0 +1,8 @@
+join Blacksmith 1
+Blacksmith: Welcome to my smithy, traveler!
+Blacksmith (Base): I told you to not be in that Discord server where all the aliens get posted... Now you're doing this..
+- Yeah, I fucked up!
+	Blacksmith: Yeah, you did.
+	[signal arg="playScene"]
+- Oh well.
+	Blacksmith: Good bye.
